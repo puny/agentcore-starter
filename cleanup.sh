@@ -4,7 +4,8 @@
 source infrastructure.env
 
 # Delete AgentCore Runtime
-uv run agentcore delete --non-interactive
+# uv run agentcore delete --non-interactive
+uv run agentcore destroy
 
 # Delete NAT Gateway
 aws ec2 delete-nat-gateway --nat-gateway-id $NAT_GATEWAY_ID --region $REGION
