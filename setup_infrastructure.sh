@@ -2,15 +2,15 @@
 # One-time infrastructure setup for AgentCore Runtime
 
 # installl python3.12
-sudo dnf install python3.12
+# sudo dnf install python3.12
 
 # symbolic link
-sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.12 1
+# sudo update-alternatives --install /usr/bin/python python /usr/bin/python3.12 1
 
 # sudo update-alternatives --config python
 
 #install uv
-curl -LsSf https://astral.sh/uv/install.sh | sh
+# curl -LsSf https://astral.sh/uv/install.sh | sh
 # wget -qO- https://astral.sh/uv/install.sh | sh
 
 # request a specific version by inclluding it in the URL
